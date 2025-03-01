@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function scanContent() {
     const images = document.querySelectorAll('img').length;
     const videos = document.querySelectorAll('video').length;
-    const text = document.body.innerText.substring(0, 200); 
+    const text = document.body.innerText.substring(0, 1000); 
 
     return { images, videos, text };
 }
